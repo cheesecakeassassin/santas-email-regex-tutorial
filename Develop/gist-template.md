@@ -1,10 +1,15 @@
-# Title (replace with your title)
+# Santa's Email Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Regex or Regular Expressions can look scary to the untrained eye. I for one always ran away from them until I took a closer look and learned that they weren't all so bad! I'd like to take you step-by-step and show you the way of the regex so you won't be frightened next time you see one. Let's get started!
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+There are so many different uses for regex but for this gist I will focus solely on the regex for matching an email.
+
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
+Come along for the ride as we dissect this beast!
 
 ## Table of Contents
 
@@ -46,4 +51,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Sebastian Santa, I am an aspiring future software developer, follow my journey @ https://github.com/cheesecakeassassin
