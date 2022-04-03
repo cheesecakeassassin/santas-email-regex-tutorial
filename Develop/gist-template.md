@@ -32,7 +32,7 @@ A quantifier is used at the end of the email regex: ```([a-z\.]{2,6})```. What w
 
 ### Character Classes
 
-
+Character classes are used aplenty in this email regex. These are the character classes that are used: ```\d``` and ```\.```. The meaning of the ```\d``` is to match with a digit, while ```\.``` matches with a period.
 
 ### Grouping and Capturing
 
