@@ -24,7 +24,11 @@ Come along for the ride as we dissect this beast!
 
 ### Anchors
 
+Anchors are found in the beginning of a regex ```^``` as they are found at the end ```$```. These two symbols do exactly that. The carot marks the beginning and the dollar sign marks the end of the regex as can be seen in the email regex.
+
 ### Quantifiers
+
+
 
 ### Character Classes
 
