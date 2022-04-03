@@ -36,6 +36,8 @@ Character classes are used aplenty in this email regex. These are the character 
 
 ### Grouping and Capturing
 
+Grouping is the bread and butter of the email regex, by grouping we are talking about the parentheses ```( )``` used throughout. When a regex string is grouped together as it is in three separate cases, it will match with everything included inside the parentheses. In this case, alphanumeric characters along with ```_```, ```-```, and ```.``` are often grouped together.
+
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
