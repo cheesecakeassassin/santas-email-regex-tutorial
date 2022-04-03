@@ -28,9 +28,11 @@ Anchors are found in the beginning of a regex ```^``` as they are found at the e
 
 ### Quantifiers
 
-
+A quantifier is used at the end of the email regex: ```([a-z\.]{2,6})```. What we are specifically looking at is the ```{2,6}```. What this signifies is that the final part of the email string(after the .) should be 2 to 6 characters that are a-z or contain a period.
 
 ### Character Classes
+
+
 
 ### Grouping and Capturing
 
