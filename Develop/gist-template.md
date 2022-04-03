@@ -28,7 +28,7 @@ Anchors are found in the beginning of a regex ```^``` as they are found at the e
 
 ### Quantifiers
 
-A quantifier is used at the end of the email regex: ```([a-z\.]{2,6})```. What we are specifically looking at is the ```{2,6}```. What this signifies is that the final part of the email string(after the .) should be 2 to 6 characters that are a-z or contain a period.
+A quantifier is used at the end of the email regex: ```([a-z\.]{2,6})```. What we are specifically looking at is the ```{2,6}```. What this signifies is that the final part of the email string (after the .) should be 2 to 6 characters that are a-z or contain a period.
 
 ### Character Classes
 
@@ -39,6 +39,8 @@ Character classes are used aplenty in this email regex. These are the character 
 Grouping is the bread and butter of the email regex, by grouping we are talking about the parentheses ```( )``` used throughout. When a regex string is grouped together as it is in three separate cases, it will match with everything included inside the parentheses. In this case, alphanumeric characters along with ```_```, ```-```, and ```.``` are often grouped together.
 
 ### Bracket Expressions
+
+In the case of this email regex, the bracket expressions ```[ ]``` function as or-operators (which is why I excluded that section to prevent redundancy). Whenever they show up in the regex it is to tell the program to match alphabetic or numeric or certain special characters regardless of their order or lack thereof.
 
 ### Greedy and Lazy Match
 
