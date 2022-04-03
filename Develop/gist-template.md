@@ -4,7 +4,7 @@ Regex or Regular Expressions can look scary to the untrained eye. I for one alwa
 
 ## Summary
 
-There are so many different uses for regex but for this gist I will focus solely on the regex for matching an email.
+There are so many different uses for regex but for this gist I will focus solely on the regex for matching an email. A regex in short is a string of characters that assist in finding patterns in text. It is essential to programming. Here's an example of the email regex we will be discussing:
 
 ```
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
@@ -51,4 +51,4 @@ Come along for the ride as we dissect this beast!
 
 ## Author
 
-My name is Sebastian Santa, I am an aspiring future software developer, follow my journey @ https://github.com/cheesecakeassassin
+My name is Sebastian Santa, I am an aspiring future software developer, follow my journey at https://github.com/cheesecakeassassin
