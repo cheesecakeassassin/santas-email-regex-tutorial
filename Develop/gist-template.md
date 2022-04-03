@@ -44,6 +44,8 @@ In the case of this email regex, the bracket expressions ```[ ]``` function as o
 
 ### Greedy and Lazy Match
 
+The greedy characters in this email regex are the ```+``` signs. Their function is to disregard duplicates, and match them no matter how many times they appear. This particular component of regex comes in handy when dealing with emails where many characters are bound to repeat.
+
 ## Author
 
 My name is Sebastian Santa, I am an aspiring future software developer, follow my journey at https://github.com/cheesecakeassassin
